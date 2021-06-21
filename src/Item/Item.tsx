@@ -20,12 +20,14 @@ const Item: React.FC<Props>=({item, handleAddToCart})=>(
                         <div className="price">
                             <span className="reducedfrom">${item.marketplaceOldPrice}</span> <br />
                         <span className="actual">${item.marketplacePrice}</span>
+                        <span></span>
                     </div>
                     <div className="cart-button">
                         <div className="cart">
                             {/* <a href="#"><img src={Images.logo18} alt=""/></a> */}
                         </div>
-                        <Link to={'/SinglePage/{item.id}'}><Button>
+                        
+                        <Link to={`SinglePage/${item.id}`}><Button>
                             View Details
                         </Button></Link>
                     <div className="clear"></div>
