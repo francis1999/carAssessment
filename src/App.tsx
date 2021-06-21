@@ -6,7 +6,7 @@ import Grid  from '@material-ui/core/Grid';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import Badge from '@material-ui/core/Badge';
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Switch, Link} from '@types/react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
 import {Wrapper} from './App.style';
 import Item from './Item/Item';
