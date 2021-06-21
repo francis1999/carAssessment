@@ -1,0 +1,37 @@
+const Images = {
+    logo1: require('./images/banner4.jpg').default,
+    logo2: require('./images/banner1.jpg').default,
+    logo3: require('./images/banner3.jpg').default,
+    logo4: require('./images/banner2.jpg').default,
+    logo5: require('./images/bg-body.jpg').default,
+    logo6: require('./images/blog-icon1.png').default,
+    logo7: require('./images/blog-icon2.png').default,
+    logo8: require('./images/blog-icon3.png').default,
+    logo9: require('./images/blog-icon4.png').default,
+    logo210: require('./images/blog-icon5.png').default,
+    logo11: require('./images/btn_bg.png').default,
+    logo12: require('./images/bullets.png').default,
+    logo13: require('./images/but.png').default,
+    logo14: require('./images/car1.jpg').default,
+    logo15: require('./images/car2.jpg').default,
+    logo16: require('./images/car3.jpg').default,
+    logo17: require('./images/car4.jpg').default,
+    logo18: require('./images/cart.png').default,
+    logo19: require('./images/icon1.png').default,
+    logo20: require('./images/icon2.png').default,
+    logo21: require('./images/icon3.png').default,
+    logo22: require('./images/logo.png').default,
+
+
+    logo23: require('./images/logo1.png').default,
+    logo24: require('./images/pic1.jpg').default,
+    logo25: require('./images/pic2.jpg').default,
+    logo26: require('./images/pic3.jpg').default,
+    logo27: require('./images/pic4.jpg').default,
+    logo28: require('./images/pic5.jpg').default,
+    logo29: require('./images/pic6.jpg').default,
+    logo30: require('./images/pic7.jpg').default,
+    logo31: require('./images/icon.png').default,
+
+}
+export default Images;
